@@ -1,25 +1,46 @@
 # Word-count
 ## AIM:
 To write a python program for getting the word count from a text.
-## EQUIPEMENT'S REQUIRED: 
+## EQUIPMENTS REQUIRED: 
 PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
+Open the file as a read mode
 
 ### Step 2: 
+Assign a variable to store the data
  
 ### Step 3: 
+Using f.read().split() and storing that in assgined variable as x
 
 ### Step 4:  
+y=len(x)
 
 ### Step 5: 
+Print the number of words y
 
 ### Step 6: 
+End the program
 
 ## PROGRAM:
+```
+#To find no.of words in the csv file
+#Developed by : Daksha Subbaian
+#Register number : 23003584
+
+from google.colab import drive
+drive.mount('/content/drive')
+
+with open("/content/drive/MyDrive/python.txt",'r') as f:
+  x=f.read().split()
+  y=len(x)
+print("Number of words :",y)
+```
 
 ### OUTPUT:
+![output](/5a\).png)
+![output](/5a\)txt.png)
 
 
 
