@@ -27,7 +27,7 @@ End the program
 ```
 #To find no.of words in the csv file
 #Developed by : Daksha Subbaian
-#Register number : 23003584
+#Register number : 212223230036
 
 from google.colab import drive
 drive.mount('/content/drive')
@@ -39,7 +39,7 @@ print("Number of words :",y)
 ```
 
 ### OUTPUT:
-![output](/5a\).png)
+![image](https://github.com/user-attachments/assets/0d1c278b-8c44-418e-ac19-4a8a7e4e0dad)
 ![output](/5a\)txt.png)
 
 
